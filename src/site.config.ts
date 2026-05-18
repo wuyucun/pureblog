@@ -49,7 +49,7 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: '博客', link: '/blog' },
-      { title: '文档', link: '/docs' },
+      // { title: '文档', link: '/docs' },
       { title: '项目', link: '/projects' },
       { title: '链接', link: '/links' },
       { title: '关于', link: '/about' }
@@ -79,7 +79,7 @@ export const theme: ThemeUserConfig = {
     credits: true,
     /** Optional details about the social media accounts for this site. */
     social: [
-      { icon: 'github', label: 'GitHub', href: 'https://github.com/cworld1/astro-theme-pure' },
+      { icon: 'github', label: 'GitHub', href: 'https://github.com/wuyucun/pureblog' },
       { icon: 'rss', label: 'RSS', href: '/rss.xml' }
     ]
   },
@@ -118,8 +118,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://astro-pure.js.org/' },
-      { name: 'Avatar', val: 'https://astro-pure.js.org/favicon/favicon.ico' }
+      { name: 'Link', val: 'https://wyclab.com/' },
+      { name: 'Avatar', val: 'https://wyclab.com/img/avatars/doggo-corgi.jpg' }
     ],
     // Cache avatars in `public/avatars/` to improve user experience.
     cacheAvatar: false
@@ -176,8 +176,8 @@ export const integ: IntegrationUserConfig = {
       pageview: true,
       comment: true,
       locale: {
-        reaction0: 'Like',
-        placeholder: 'Welcome to comment. (Email to receive replies. Login is unnecessary)'
+        reaction0: '喜欢',
+        placeholder: '欢迎评论（邮箱可选，用于接收回复）'
       },
       imageUploader: false
     }
